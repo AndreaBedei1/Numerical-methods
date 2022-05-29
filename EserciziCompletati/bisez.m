@@ -1,6 +1,6 @@
 function [x,xk,it]=bisez(fname,a,b,tol)
 % x soluzione
-% xk vettore di soluzioni, con avanzare di k avremmo numero più vicini alla
+% xk vettore di soluzioni, con avanzare di k avremo numeri più vicini alla
 % soluzione
 
 fa=fname(a);

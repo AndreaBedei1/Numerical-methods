@@ -48,7 +48,7 @@ while it<=nmax && norm(fx1,1)>=tolf && norm(s,1)>=tolx*norm(x1,1)
             it=[];
             return
         else
-            %Risolvo il sistema lineare aventa come matrice dei coefficienti la
+            %Risolvo il sistema lineare avente come matrice dei coefficienti la
             %matrice Jacobiana e come termine noto la Funzione vettoriale F valutata
             %in x0
             s=-matjac\fun(x0);

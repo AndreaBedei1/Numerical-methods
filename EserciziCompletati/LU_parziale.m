@@ -1,5 +1,5 @@
 function [L,U,P,flag]=LU_parziale(A)
-    % Implementazione eplicitando solo il ciclo in k ( fa le operazioni su tutta la
+    % Implementazione esplicitando solo il ciclo in k ( fa le operazioni su tutta la
     % sottomatrice da modificare al passo k)
     
     % Fattorizzazione PA=LU con pivot parziale

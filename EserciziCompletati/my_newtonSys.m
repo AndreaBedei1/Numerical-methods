@@ -44,7 +44,7 @@ function [x1,Xm,it]= my_newtonSys(fun,jac,x0,tolx,tolf,nmax)
             it=[];
             return
         else
-            %Risolvo il sistema lineare aventa come matrice dei coefficienti la
+            %Risolvo il sistema lineare avente come matrice dei coefficienti la
             %matrice Jacobiana e come termine noto la Funzione vettoriale F valutata
             %in x0
             s=matjac\fun(x0);
